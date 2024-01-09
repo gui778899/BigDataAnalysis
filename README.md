@@ -1,13 +1,40 @@
-# 5011CEM_20-21
-Matlab code for 5011CEM 20/21
+# Big Data Processing with MATLAB
 
-The repository contains the code files for 5011CEM delivered in semester 2, starting January 2022.
+## About
+This project, developed as part of the 5011CEM module at Coventry University, presents a comprehensive analysis and implementation of big data techniques to process atmospheric science data and climate models. The data for this project was provided by the European Centre for Medium-Range Weather Forecasts (ECMWF).
 
-This module is delivered using flipped learning. This means that there are recorded 'lectures' providing the overview of the learning material. There are then tasks which shold be completed. This repository contains the Matlab code used for these tasks.
-The scheduled teaching slots with tutors are to be run as tutorial sessions. You should arrive at these sessions having completed your tasks as well as you can, and use these sessions for additional learning around the topics
+## Project Goals
+- Utilize big data techniques to significantly reduce the processing time for large data sets.
+- Make predictions on hardware requirements needed to process the client-provided data set within two hours.
+- Compare sequential and parallel processing to determine the more efficient approach.
+- Design the code to automatically test for common data errors and address potential issues.
 
-Each folder contains code for a separate task, numbered by teaching session.
-The folder 'Common Files' contains code that is common between sessions.
-The folder 'Model' is empty at this time. you will be provided with 3 data files separately to download and save to this location.
+## Software and Toolboxes
+- MATLAB_R2022b
+- Parallel Computing Toolbox Version 7.7
+- Statistics and Machine Learning Toolbox version 12.4
+- Data from ECMWF
 
-It is recommended that you retain the folder structure, and add all the folders to your Matlab path. the easiest way to do this is to select the top levbel folder, right click and select 'add to path' -> selected folders and subfolders.
+## File Structure
+- **Plotting**: Contains `Graphs.m` and `ResultsToGraphs.m` for data visualization.
+- **Processing**: Includes `MainProcessing.m`, `Processing.m`, and `SequentialProcessing.m` for data processing.
+- **Testing**: Comprises `AutomatedTestingNonNumeric.m`, `MainAutomatedTesting.m`, and `TestSolutionsWithLogFile.m` for error checking.
+- **GUI.m**: Provides a user-friendly interface for setting up analysis parameters.
+
+## Features
+- **GUI**: User-friendly interface for data and worker options, and analysis duration.
+- **Testing**: Functions to check for NaN or non-numeric errors in the data.
+- **Processing**: Options for both sequential and parallel processing, with results logging.
+- **Plotting**: Generates graphs for visual analysis of processing times and efficiency.
+
+## Analysis and Recommendations
+- Detailed analysis comparing sequential and parallel processing.
+- Extrapolation of results to estimate required number of workers and memory.
+- Recommendations for hardware requirements based on best industry practices.
+- Suggestions for implementing the system using cloud computing technology for scalability and cost-effectiveness.
+
+## Appendices
+- Flow Charts
+- Gannt Chart
+- SMART targets
+- Log Book
