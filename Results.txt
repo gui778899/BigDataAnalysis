@@ -1,0 +1,6 @@
+Worker Parameter: 1, Data Parameter: 20, Time to Process: 0.824601
+Worker Parameter: 2, Data Parameter: 20, Time to Process: 0.861260
+Worker Parameter: 1, Data Parameter: 50, Time to Process: 1.000712
+Worker Parameter: 2, Data Parameter: 50, Time to Process: 1.018427
+Worker Parameter: 1, Data Parameter: 100, Time to Process: 1.363333
+Worker Parameter: 2, Data Parameter: 100, Time to Process: 1.364322
