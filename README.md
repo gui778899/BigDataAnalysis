@@ -1,7 +1,7 @@
 # Big Data Processing with MATLAB
 
 ## About
-This project, developed as part of the 5011CEM module at Coventry University, presents a comprehensive analysis and implementation of big data techniques to process atmospheric science data and climate models. The data for this project was provided by the European Centre for Medium-Range Weather Forecasts (ECMWF).
+This project, developed as part of the Big Data module at Coventry University, presents a comprehensive analysis and implementation of big data techniques to process atmospheric science data and climate models. The data for this project was provided by the European Centre for Medium-Range Weather Forecasts (ECMWF).
 
 ## Project Goals
 - Utilize big data techniques to significantly reduce the processing time for large data sets.
